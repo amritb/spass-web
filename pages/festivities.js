@@ -13,7 +13,7 @@ export default function Festivities() {
 
       <PageContent>
         <Row>
-          <Col className=" mb-5">
+          <Col className="">
             <p className="large-first">
               People from various cultures across the world love to experience bright festivals and carnivals filled with colors and sounds, ethnic food, and community gatherings - through vibrant festivities, dance-forms, songs and music, art and culture, and food preparations and conversations.
             </p>
@@ -24,13 +24,11 @@ export default function Festivities() {
         </Row>
 
         <Row>
-          <Col className="col-12 col-md-6">
-            <GalleryCard text="Berlin Durga Puja 2021" href="/gallery/puja-2021" cover="/images/durga-puja-2021/cover.jpg" />
-          </Col>
 
-          <Col className="col-12 col-md-6">
-            <GalleryCard text="Berlin Saraswati Puja 2020" href="/gallery/saraswati-puja-2020" cover="/images/saraswati-puja-2020/2.jpg" />
-          </Col>
+          <GalleryCard text="Berlin Durga Puja 2021" href="/gallery/puja-2021" cover="/images/durga-puja-2021/cover.jpg" />
+
+          <GalleryCard text="Berlin Saraswati Puja 2020" href="/gallery/saraswati-puja-2020" cover="/images/saraswati-puja-2020/2.jpg" />
+
         </Row>
       </PageContent>
     </>

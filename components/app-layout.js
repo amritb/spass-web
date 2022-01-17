@@ -2,7 +2,8 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Col, Container, Nav, Offcanvas, Row, Button } from 'react-bootstrap';
 import { GiHamburgerMenu } from 'react-icons/gi';
-import { GrClose, GrFacebook, GrGithub, GrInstagram, GrTwitter, GrYoutube } from 'react-icons/gr';
+import { GrClose, GrFacebook, GrGithub, GrInstagram, GrYoutube } from 'react-icons/gr';
+import NavLinks from './nav-links';
 
 export default function AppLayout({ children }) {
   const [menu, setMenu] = useState(false);
@@ -16,22 +17,7 @@ export default function AppLayout({ children }) {
         </Offcanvas.Header>
 
         <Offcanvas.Body>
-          <Nav className='justify-content-center'>
-
-            <Link href="/"><a className="nav-link" onClick={() => setMenu(false)}>Home</a></Link>
-
-            <Link href="/festivities"><a className="nav-link" onClick={() => setMenu(false)}>Festivities</a></Link>
-
-            <Link href="/connection"><a className="nav-link" onClick={() => setMenu(false)}>Connection</a></Link>
-
-            <Link href="/inclusivity"><a className="nav-link" onClick={() => setMenu(false)}>Inclusivity</a></Link>
-
-            <Link href="/next-generation"><a className="nav-link" onClick={() => setMenu(false)}>Next generation</a></Link>
-
-            <Link href="/hindu"><a className="nav-link" onClick={() => setMenu(false)}>"Hindu"</a></Link>
-
-            <Link href="/join-us"><a className="nav-link" onClick={() => setMenu(false)}>Join us</a></Link>
-          </Nav>
+          <NavLinks cn='justify-content-center' setMenu={setMenu} />
         </Offcanvas.Body>
       </Offcanvas>
 

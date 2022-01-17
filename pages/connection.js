@@ -12,7 +12,7 @@ export default function Connection() {
 
       <PageContent>
         <Row>
-          <Col className=" mb-5">
+          <Col className="">
             <p className="large-first">
               One beautiful and important aspect of being a Hindu is receiving a life choice of looking at everything through the lens of anthropomorphism; everything has a life form and is, therefore, a living being - the Earth, the soil, the plants, the trees, the rivers, the lakes, the vast mountains, and the deep oceans. The five elements of Earth, water, fire, air, and Akash has each been given anthropomorphic symbolism in the Hindu culture. Many animals and plants and herbs have also been given these living-symbolisms. This was a way of the Hindu ancestors to maintain a relationship of mutual love and respect between the energies of nature and the humans, for peaceful coexistence.
             </p>

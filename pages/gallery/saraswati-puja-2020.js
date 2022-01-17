@@ -15,7 +15,7 @@ export default function Puja2021() {
 
       <PageContent>
         <Row>
-          <Col className=" mb-5">
+          <Col className="">
             <ImageGallery imagesUrls={images} />
           </Col>
         </Row>

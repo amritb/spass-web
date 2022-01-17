@@ -12,7 +12,7 @@ export default function NextGeneration() {
 
       <PageContent>
         <Row>
-          <Col className=" mb-5">
+          <Col className="">
             <p className="large-first">
               As a human residing on this blue planet, the main thought affecting all of us is - what have we inherited from our ancestors and what are we leaving behind for the next generations to come. The ancient way of holistic living, a life choice of wellbeing, and living in balance with nature and mother Earth - is a call of the hour in this difficult age of the Anthropocene. 'Spaß Berlin' recognizes this very urgent need and therefore revives ancient Hindu practices and symbolisms that support reverence to nature and the belief that life resides in every object.
               </p>

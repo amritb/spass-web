@@ -12,7 +12,7 @@ export default function Inclusivity() {
 
       <PageContent>
         <Row>
-          <Col className=" mb-5">
+          <Col className="">
             <p className="large-first">
               One remarkable thing about Hindu festivals is its inclusivity. Though many times, due to multiple language backgrounds in the Indian subcontinent, and across the world, there still remain some barriers when it comes to understanding each other and therefore intermingling with each other. Still, the language of art, music, dance, and food can cross all barriers and bring in inclusivity!
             </p>
